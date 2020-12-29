@@ -1,0 +1,173 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+[class*=entypo-]:before {
+  font-family: "entypo", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+  margin-left: 12px;
+}
+
+body {
+  background: #272125;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+form {
+  position: relative;
+  margin: 50px auto;
+  width: 380px;
+  height: auto;
+}
+
+.form {
+  position: relative;
+  height: auto;
+  margin-left: 30%;
+}
+
+table {
+  width: 380px;
+  height: auto;
+}
+
+.ta1{
+  width: 900px;
+  margin-top: 10%;
+  height: auto;
+}
+
+.ta2{
+  width: 550px;
+  margin-top: 10%;
+  height: auto;
+}
+
+input {
+  padding: 16px;
+  border-radius: 7px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  margin: 15px;
+  width: 300px;
+  color: #ff8a30;
+  font-size: 18px;
+  height: 54px;
+}
+
+.button1 {
+  float: right;
+  height: 121px;
+  width: 50px;
+  border: 0px;
+  background: #ff8a30;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.button2 {
+  height: 50px;
+  width: 170px;
+  border: 0px;
+  background: #ff8a30;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.button3 {
+  height: 50px;
+  width: 170px;
+  border: 0px;
+  background: #ff8a30;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+  margin-left: 22%;
+}
+
+.book {
+  margin-top: 1%;
+  margin-left: 47.5%;
+}
+
+.inputUserIcon {
+  position: absolute;
+  top: 68px;
+  right: 80px;
+  color: #ff8a30;
+}
+
+.inputPassIcon {
+  position: absolute;
+  top: 136px;
+  right: 80px;
+  color: #ff8a30;
+}
+
+/*select*/
+.box {
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 48%;
+}
+
+.box select {
+  background-color: #ff8a30;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+
+header {
+  background-color: #272125;
+  padding-bottom: 1%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ff8a30;
+}
